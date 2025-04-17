@@ -1,0 +1,151 @@
+name: car_marketplace
+description: تطبيق بيع وتأجير السيارات متعدد المنصات
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  http: ^1.1.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+  image_picker: ^1.0.1
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  intl: ^0.18.1
+  flutter_svg: ^2.0.7
+  url_launcher: ^6.1.12
+  google_fonts: ^5.1.0
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+  dio: ^5.3.0
+  flutter_dotenv: ^5.1.0
+  flutter_staggered_grid_view: ^0.6.2
+  pin_code_fields: ^8.0.1
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  get_it: ^7.6.0
+  dartz: ^0.10.1
+  connectivity_plus: ^4.0.2
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+  path_provider: ^2.0.15
+  permission_handler: ^10.4.3
+  geolocator: ^10.0.0
+  google_maps_flutter: ^2.3.1
+  flutter_local_notifications: ^15.1.0+1
+  firebase_core: ^2.15.0
+  firebase_messaging: ^14.6.5
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.5
+  flutter_facebook_auth: ^6.0.0
+  google_sign_in: ^6.1.4
+  sign_in_with_apple: ^5.0.0
+  flutter_stripe: ^9.3.0
+  webview_flutter: ^4.2.2
+  flutter_html: ^3.0.0-beta.2
+  share_plus: ^7.1.0
+  package_info_plus: ^4.1.0
+  device_info_plus: ^9.0.2
+  flutter_image_compress: ^2.0.3
+  photo_view: ^0.14.0
+  flutter_slidable: ^3.0.0
+  flutter_easyloading: ^3.0.5
+  lottie: ^2.5.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.2.0
+  flutter_form_builder: ^9.1.0
+  form_builder_validators: ^9.0.0
+  flutter_typeahead: ^4.6.2
+  dropdown_search: ^5.0.6
+  flutter_colorpicker: ^1.0.3
+  file_picker: ^5.3.2
+  flutter_pdfview: ^1.3.1
+  syncfusion_flutter_charts: ^22.2.9
+  syncfusion_flutter_pdfviewer: ^22.2.9
+  flutter_credit_card: ^3.0.7
+  flutter_paypal: ^0.2.0
+  flutter_paytabs_bridge: ^2.3.5
+  flutter_screenutil: ^5.8.4
+  flutter_gen: ^5.3.1
+  auto_route: ^7.7.1
+  freezed: ^2.4.1
+  json_annotation: ^4.8.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  logger: ^1.4.0
+  flutter_flavor: ^3.1.1
+  flutter_config: ^2.0.2
+  flutter_hooks: ^0.20.0
+  hooks_riverpod: ^2.3.7
+  riverpod_annotation: ^2.1.1
+  flutter_riverpod: ^2.3.7
+  riverpod: ^2.3.7
+  flutter_localizations_plus: ^0.0.2
+  easy_localization: ^3.0.2
+  flutter_localization: ^0.1.13
+  flutter_localized_locales: ^2.0.4
+  flutter_i18n: ^0.33.0
+  flutter_translate: ^4.0.4
+  flutter_locales: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  mockito: ^5.4.2
+  flutter_gen_runner: ^5.3.1
+  auto_route_generator: ^7.2.0
+  freezed_annotation: ^2.4.1
+  hive_generator: ^2.0.0
+  riverpod_generator: ^2.2.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/translations/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash.png
+  android: true
+  ios: true
+  web: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
+  macos:
+    generate: true
+    image_path: "assets/icons/app_icon.png"
